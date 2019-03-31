@@ -1,0 +1,16 @@
+@import "../../common/vendor.wxss";
+
+.second_type {
+  font-size: 36rpx;
+  text-indent: 90rpx;
+}
+.first_type {
+  font-size: 44rpx;
+  font-weight: 800;
+  text-indent: 60rpx;
+}
+page-head {
+  font-size: 48rpx;
+  font-weight: 800;
+  padding-left: 30rpx;
+}

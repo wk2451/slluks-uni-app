@@ -1,0 +1,168 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+					"enablePullDownRefresh": true,
+					"navigationBarTitleText": "INDEX"
+                }
+			}
+		},
+		{
+			"path": "pages/art/art",
+			"style": {
+				"app-plus": {
+					"enablePullDownRefresh": true,
+					"navigationBarTitleText": "ART"
+				}
+			}
+		},
+		{
+			"path": "pages/content/content",
+			"style": {
+// 				"app-plus": {
+// 					"enablePullDownRefresh": true,
+// 					"navigationBarTitleText": "CONTENT"
+// 				}
+			}
+		},
+		{
+			"path": "pages/product/product",
+			"style": {
+// 				"app-plus": {
+// 					"enablePullDownRefresh": true,
+// 					"navigationBarTitleText": "PRODUCT"
+// 				},
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/myself/myself",
+			"style": {
+// 				"app-plus": {
+// 					"enablePullDownRefresh": true,
+// 					"navigationBarTitleText": "myself"
+// 				}
+			}
+		},
+		{
+			"path": "pages/cart/cart",
+			"style": {
+// 				"app-plus": {
+// 					"enablePullDownRefresh": true,
+// 					"navigationBarTitleText": "cart"
+// 				}
+			}
+		},
+		{
+			"path": "pages/goodsinfo/goodsinfo",
+			"style": {
+// 				"app-plus": {
+//                     "titleNView": {
+//                         "buttons": [ //原生标题栏按钮配置,
+//                             {
+//                                 "text": "分享" ,//原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听
+// 								"type":"menu1"
+//                             },
+// 							{
+// 								"type":"back",
+// 								"text": "产品 ", //原生标题栏增加分享按钮，点击事件可通过页面的 onNavigationBarButtonTap 函数进行监听,
+// 								"float":"left"
+// 							}
+//                         ]
+//                     },
+// 					"enablePullDownRefresh": true,
+// 					"navigationBarTitleText": "GOODSINFO"
+// 				}
+			}
+		},
+		{
+					"path": "pages/goodstype/goodstype",
+					"style": {
+		// 				"app-plus": {
+		// 					"enablePullDownRefresh": true,
+		// 					"navigationBarTitleText": "cart"
+		// 				}
+					}
+				},
+		{
+					"path": "pages/address/address",
+					"style": {
+		// 				"app-plus": {
+		// 					"enablePullDownRefresh": true,
+		// 					"navigationBarTitleText": "cart"
+		// 				}
+					}
+				},
+		{
+					"path": "pages/creatorder/creatorder",
+					"style": {
+		// 				"app-plus": {
+		// 					"enablePullDownRefresh": true,
+		// 					"navigationBarTitleText": "cart"
+		// 				}
+					}
+				},
+		{
+					"path": "pages/orderlist/orderlist",
+					"style": {
+		// 				"app-plus": {
+		// 					"enablePullDownRefresh": true,
+		// 					"navigationBarTitleText": "cart"
+		// 				}
+					}
+				},
+		{
+					"path": "pages/orderinfo/orderinfo",
+					"style": {
+		// 				"app-plus": {
+		// 					"enablePullDownRefresh": true,
+		// 					"navigationBarTitleText": "cart"
+		// 				}
+					}
+				}
+	],
+	"globalStyle": {
+		// "navigationStyle":"custom",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "SLLUKS",
+		"navigationBarBackgroundColor": "#333333",
+		"backgroundColor": "black"
+	},
+	"tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#333333",
+    "list": [{
+      "pagePath": "pages/index/index",
+	  "iconPath":"static/images/menu1.png",
+      "selectedIconPath": "static/images/menu1.png",
+      "text": "推荐"
+    },{
+      "pagePath": "pages/goodstype/goodstype",
+	  "iconPath":"static/images/art.png",
+      "selectedIconPath": "static/images/art.png",
+      "text": "分类"
+    },
+	{
+	"pagePath": "pages/cart/cart",
+	"iconPath":"static/images/cart.png",
+	"selectedIconPath": "static/images/cart1.png",
+	"text": "购物车"
+	},
+	{
+	"pagePath": "pages/content/content",
+	"iconPath":"static/images/content.png",
+	"selectedIconPath": "static/images/content.png",
+	"text": "历史"
+	},
+	{
+	"pagePath": "pages/myself/myself",
+	"iconPath":"static/images/product.png",
+	"selectedIconPath": "static/images/product.png",
+	"text": "我的"
+	}]
+  }
+}
